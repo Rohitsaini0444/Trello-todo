@@ -1,0 +1,66 @@
+body {
+    /* background-color: #bbd1da21;; */
+    background-image: url("./images/background.jpg");
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trello {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-select {
+    width: 70%;
+}
+
+#mychecklist {
+    width: 50%;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    width: 100%;
+    list-style-type: none;
+    font-weight: 200;
+    font-family: roboto;
+    font-size: 25px;
+}
+
+select {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    ;
+    height: 40px;
+    padding-left: 40%;
+    font-size: 20px;
+    background-color: #caded7;
+    border-radius: 5px;
+    outline: none;
+}
+
+#listCheckbox {
+    display: inline;
+}
+
+.checkbox {
+    width: 30px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+#text-box{
+    height: 30px;
+    background-color: #d4d5dc;
+    border-radius: 5px;
+    width: 100%;
+    outline:none;
+}
